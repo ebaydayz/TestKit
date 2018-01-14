@@ -9,7 +9,7 @@ ZombieKills: %11\n
 Headshots: %12\n
 \n
 Type: %13\n
-Azimuth: %21\n
+Direction: %21\n
 Position: %22\n
 \n
 FPS: %14\n
