@@ -1,16 +1,16 @@
 format [
 "
-Humanity: %1\n
-Temperature: %2\n
-Blood: %3\n
-BloodType: %4\n
-Hunger: %5\n
-Thirst: %6\n
-BanditKills: %7  Confirmed: %8\n
-HumanKills: %9  Confirmed: %10\n
+Humanity: %1   Temperature: %2\n
+Blood: %3   BloodType: %4\n
+Hunger: %5   Thirst: %6\n
+BanditKills: %7   Confirmed: %8\n
+HumanKills: %9   Confirmed: %10\n
 ZombieKills: %11\n
 Headshots: %12\n
+\n
 Type: %13\n
+Direction: %21\n
+Position: %22\n
 \n
 FPS: %14\n
 Players: %15\n
@@ -37,5 +37,7 @@ round diag_fps,
 dayz_currentGlobalAnimals,
 dayz_maxGlobalAnimals,
 dayz_currentGlobalZombies,
-dayz_maxGlobalZeds
+dayz_maxGlobalZeds,
+getDir (vehicle player),
+getPosATL (vehicle player)
 ]
